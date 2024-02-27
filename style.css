@@ -1,0 +1,425 @@
+body {
+    background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+    ;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #172237;
+}
+
+.bg-gray-100 {
+    --tw-bg-opacity: 1;
+}
+
+nav {
+    background-color: #172237;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.text-white {
+    font-size: 12px;
+}
+
+.navbar-nav {
+    margin-left: 500px;
+}
+
+.navbar-toggler {
+    border: 1px solid white;
+    background-color: white;
+}
+
+.navbar-2 {
+    height: 50px;
+}
+
+.navbar-2 a {
+    text-decoration: none;
+}
+
+.logo {
+    height: 40px;
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.cart {
+    position: relative;
+    left: 250px;
+    margin: 10px;
+}
+
+.category {
+    background-color: white;
+    line-height: 5px;
+    height: 426px;
+    margin-left: 30px;
+}
+
+.category a {
+    text-decoration: none;
+    color: black;
+}
+
+.category a p:hover {
+    background-color: rgb(0, 0, 0, 0.1) !important;
+    border-left: 2px solid black;
+}
+
+.mobile {
+    font-size: 12px;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 480px;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.image {
+    width: 95%;
+    height: 204px;
+}
+
+.Off {
+    width: 100%;
+    height: 387px;
+}
+
+
+/* OWL CAROUSEL */
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-nav button.owl-prev {
+    left: 0;
+}
+
+.owl-nav button.owl-next {
+    right: 0;
+}
+
+.owl-dots {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+
+.owl-dots button.owl-dot.active {
+    background-color: #000;
+}
+
+.owl-dots button.owl-dot:focus {
+    outline: none;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: whitesmoke !important;
+
+}
+
+.owl-nav:hover {
+    background-color: black !important;
+    border-radius: 100% !important;
+
+}
+
+span {
+    font-size: 70px;
+    position: relative;
+    top: -5px;
+}
+
+.owl-nav button:focus {
+    outline: none;
+}
+
+.item {
+    height: 400px;
+}
+
+.owl-carousel {
+    height: 250px;
+}
+
+.owl {
+    width: 100%;
+}
+
+.item {
+    height: 380px;
+    width: 250px;
+    transition: 1s all ease;
+    padding-left: 0px;
+}
+
+
+.owl-carousel {
+    background-color: white;
+    height: 387px;
+    width: 100%;
+}
+
+.btn {
+    height: 30px;
+    width: 50px;
+    padding: 1px;
+}
+
+/* END OWL */
+
+
+
+/* dropdown */
+
+.dropdown-2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content-2 {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9999999;
+    left: 280px;
+    top: 120px;
+    background-color: white;
+    position: fixed;
+}
+
+.dropdown-content-2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content-2 a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-2:hover .dropdown-content-2 {
+    display: block;
+}
+
+/* END */
+.apple-btn {
+    width: 160px;
+    height: 60px;
+    transition: 0.5s ease all;
+}
+
+.apple-btn:hover {
+    opacity: 0.4;
+}
+
+.brand {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.fb {
+    background-color: white;
+}
+
+.popular {
+    background-color: white;
+    margin-left: 5px;
+}
+
+.kids {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.download {
+    padding: 100px;
+}
+
+.trust {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer {
+    background-color: #172237;
+    color: white;
+}
+
+.footer-context {
+    padding: 50px;
+}
+
+.line {
+    height: 2px;
+    background-color: white;
+}
+
+.navbar-toggler-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.mobile-6 {
+    background-color: white;
+    margin-top: 30px;
+}
+
+.telemart {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.box-1 {
+    background-color: rgb(248, 241, 233);
+    margin-top: 5px;
+    height: 135px;
+    width: 100%;
+}
+
+.box-2 {
+    background-color: rgb(248, 241, 233);
+    margin-top: 5px;
+    height: 135px;
+    width: 100%;
+}
+
+.box-3 {
+    background-color: rgb(248, 234, 234);
+    margin-top: 5px;
+    height: 135px;
+    width: 100%;
+}
+
+.box-4 {
+    background-color: rgb(248, 234, 234);
+    margin-top: 5px;
+    height: 135px;
+    width: 100%;
+}
+
+.box-5 {
+    background-color: rgb(235, 245, 248);
+    margin-top: 5px;
+    height: 135px;
+    width: 100%;
+}
+
+.box-6 {
+    background-color: rgb(235, 245, 248);
+    margin-top: 5px;
+    height: 135px;
+    width: 100%;
+}
+
+.box-7 {
+    background-color: rgb(248, 241, 233);
+    margin-top: 5px;
+    height: 135px;
+    width: 100%;
+}
+
+.box-8 {
+    background-color: rgb(248, 241, 233);
+    margin-top: 5px;
+    height: 135px;
+    width: 100%;
+}
+
+/* Respomsiveness */
+
+
+@media only screen and (max-width: 994px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .telemart {
+        width: 100%;
+    }
+
+    header {
+        width: 716px;
+    }
+
+    .bismillah {
+        visibility: hidden;
+    }
+
+    .cart {
+        visibility: hidden;
+    }
+
+    .category {
+        width: 80%;
+    }
+
+    .fb {
+        width: 200px;
+        height: 200px;
+    }
+
+    .off {
+        width: 200px;
+    }
+
+    .box {
+        width: 20%;
+        height: 100px;
+    }
+
+    footer {
+        width: 719px;
+    }
+}
+
+@media only screen and (max-width: 988px) {
+    .brand .row {
+        flex-wrap: wrap;
+    }
+
+    .brand .row .col-md-2 {
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 973px) {
+    .header {
+        width: 1053px;
+    }
+
+    .search .cart {
+        visibility: hidden;
+    }
+    .footer{
+        width: 100%;
+    }
+}
